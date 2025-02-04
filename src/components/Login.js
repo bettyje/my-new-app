@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
-import './LoginPage.css' // Import the CSS file
+import './LoginPage.css' 
 
 const Login = ({ setUser }) => {
   const [email, setEmail] = useState('')
@@ -12,7 +12,7 @@ const Login = ({ setUser }) => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const response = await axios.post('http://localhost:5000/login', {
+      const response = await axios.post('https://journal-webb-app.onrender.com/login', {
         email,
         password,
       })
