@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
-import './App.css' // Ensure this includes the dot CSS
+import './App.css' 
 
 const CalendarView = ({ user }) => {
   const [entries, setEntries] = useState([])
