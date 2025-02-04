@@ -1,7 +1,6 @@
-/* Full page styling with background image */
 .journal-page {
   min-height: 100vh;
-  background-image: url('../assets/top-view-open-notepad-with-feijoas-flowers.jpg'); /* Corrected relative path */
+  background-image: url('../assets/top-view-open-notepad-with-feijoas-flowers.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
