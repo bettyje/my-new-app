@@ -15,7 +15,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault()
     try {
-      await axios.post('http://localhost:5000/user/sign-up', {
+      await axios.post('https://journal-webb-app.onrender.com/user/sign-up', {
         name,
         email,
         password,
