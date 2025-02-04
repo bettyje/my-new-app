@@ -8,7 +8,6 @@ const Journal = ({ user }) => {
   const [title, setTitle] = useState('')
   const [content, setContent] = useState('')
   const [error, setError] = useState('')
-  const navigate = useNavigate()
 
   const fetchEntries = useCallback(async () => {
     if (!user?.access_token) return
