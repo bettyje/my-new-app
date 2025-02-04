@@ -1,0 +1,53 @@
+.hero-section {
+  background-image: url('../assets/Purple\ White\ Cute\ Aesthetic\ Journal.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(39, 3, 40);
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  text-align: center;
+  padding-top: 60vh;
+}
+
+.hero-text {
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.get-started-btn {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.features-section {
+  background-color: #bda2dc;
+}
+
+.feature-title {
+  color: #6f42c1;
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.footer {
+  background-color: #6f42c1;
+  color: #638ede;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.card-body {
+  padding: 1rem;
+  background-color: #acf3e5;
+}

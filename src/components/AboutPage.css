@@ -1,0 +1,42 @@
+.about-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    background-image: url('../assets/Pasted\ image.png'); /* Adjust path if needed */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .about-header {
+    background-color: #6f42c1;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .about-title {
+    margin-bottom: 1rem;
+  }
+  
+  .about-container {
+    margin-top: 3rem;
+  }
+  
+  .section-title {
+    color: #6f42c1;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sub-section-title {
+    color: #007bff;
+    margin-top: 2rem;
+  }
+  
+  .footer {
+    background-color: #6f42c1;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+  }
+  

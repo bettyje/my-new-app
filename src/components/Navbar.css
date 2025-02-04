@@ -1,0 +1,33 @@
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.btn-outline-light {
+  margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+
+  .btn-outline-light {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
