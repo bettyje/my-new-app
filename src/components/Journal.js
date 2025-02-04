@@ -12,7 +12,7 @@ const Journal = ({ user }) => {
     if (!user?.access_token) return
 
     try {
-      const response = await axios.get('http://localhost:5000/journal', {
+      const response = await axios.get('https://journal-webb-app.onrender.com/journal', {
         headers: { Authorization: `Bearer ${user.access_token}` },
       })
       setEntries(response.data)
@@ -37,7 +37,7 @@ const Journal = ({ user }) => {
     try {
       const payload = { title: title.trim(), content: content.trim() }
       const response = await axios.post(
-        'http://localhost:5000/journal',
+        'https://journal-webb-app.onrender.com/journal',
         payload,
         {
           headers: {
