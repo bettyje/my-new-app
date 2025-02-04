@@ -19,7 +19,7 @@ const CalendarView = ({ user }) => {
     setLoading(true)
     try {
       const response = await axios.get(
-        'http://localhost:5000/journal/calendar',
+        'https://journal-webb-app.onrender.com/calendar',
         {
           headers: { Authorization: `Bearer ${user.access_token}` },
         }
