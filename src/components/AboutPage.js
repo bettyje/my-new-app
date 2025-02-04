@@ -4,13 +4,11 @@ import './AboutPage.css';
 const AboutPage = () => {
   return (
     <div className="about-page">
-      {/* Header */}
       <header className="about-header">
         <h1 className="display-4 about-title">About My Journal</h1>
         <p className="lead">Your Personal Space to Write, Reflect, and Grow 🌱</p>
       </header>
 
-      {/* Main Content */}
       <div className="container about-container">
         <div className="row">
           <div className="col-md-8 offset-md-2">
@@ -41,8 +39,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-
-      {/* Footer */}
+    
       <footer className="footer">
         <p className="mb-0">&copy; 2025 My Journal. All rights reserved.</p>
       </footer>
