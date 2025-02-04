@@ -2,7 +2,7 @@
     padding: 20px;
     background-color: #f8f9fa;
     min-height: 100vh;
-    background-image: url('../assets/Pasted\ image.png'); /* Adjust path if needed */
+    background-image: url('../assets/Pasted\ image.png'); 
     background-size: cover;
     background-position: center;
   }
